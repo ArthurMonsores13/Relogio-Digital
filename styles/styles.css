@@ -35,3 +35,24 @@ body {
     color: #fff;
     text-align: center;
 }
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .clock-container {
+        padding: 15px;
+        border-width: 3px;
+    }
+    #clock {
+        font-size: 2rem;
+    }
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 480px) {
+    .clock-container {
+        padding: 10px;
+        border-width: 2px;
+    }
+    #clock {
+        font-size: 1.5rem;
+    }
+}
